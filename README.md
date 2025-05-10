@@ -1,6 +1,6 @@
 # Overview
 
-LightinGAN is a collection of a generation model using Pix2PixHD, and an object detection model YOLOv11 by Ultralytics. Our synthetic Data Generator creates images based on the input according to the type of scenario of the medical CT-Scan needed to be generated. Using this process, we have created very realistic images of the CT scan of the Lung Cancer for more feasibility and to improve our model for accurate predictions.
+LightinGAN is a collection of a generation model using Pix2PixHD, and an object detection model YOLOv11 by Ultralytics. The generator model takes an input as the image file and the value of lighting scenario (1-24), and outputs the image with the applied lighting scenario as the output, of size 256x256.
 
 # Install
 
